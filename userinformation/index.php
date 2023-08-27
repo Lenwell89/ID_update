@@ -6,7 +6,6 @@
 <title>Data Upload and Management</title>
 
 </head>
-<div class="container">
 <body>
   <h2>Upload CSV File</h2>
   <form action="upload_process.php" method="post" enctype="multipart/form-data">
@@ -37,6 +36,5 @@
   <?php 
   include "view_data.php"; 
   ?>
-  </div>
 </body>
 </html>
